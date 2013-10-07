@@ -2,11 +2,10 @@ source 'https://rubygems.org'
 #
 # Gems included per Listing 9.4.8
 #
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 gem 'bootstrap-sass'
-gem 'bcrypt-ruby'
+
 gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
@@ -57,3 +56,6 @@ group :production do
   gem 'sqlite3'
   gem 'rails_12factor'
 end
+
+gem 'bcrypt-ruby', '3.0.1'
+gem 'certified'
